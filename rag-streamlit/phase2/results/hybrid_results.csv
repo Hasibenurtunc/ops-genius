@@ -1,0 +1,42 @@
+test_type,intents,difficulty,note,question,rag_answer,source,failed
+hybrid,"recover_password, cancel_order, delivery_options",multi-intent,Uc farkli intent ayni anda soruluyor,I forgot my password and now I can't track my order or check my delivery options. What should I do first?,"Since you forgot your password, I would recommend trying the ""Forgot Password"" option on the login page first. This will send a reset link to your registered email address, which you can use to create a new password.",account_policy.txt,False
+hybrid,"cancel_order, recover_password",multi-intent,Iptal + sifre kurtarma ayni anda,I placed an order yesterday but I changed my mind. Also I don't remember which email I used to sign up. Can you help?,"Based on our Order Management Policy, since you've changed your mind about the order and it's been less than 24 hours since you placed it, you can cancel the order at no charge. 
+
+As for your forgotten email address, you can contact customer support with your full name and order history to verify your identity and recover the account. This way, you'll be able to access your account and cancel the order. 
+
+Please reach out to support with your full name and details of your order, and we'll assist you further.",order_policy.txt,False
+hybrid,"recover_password, delivery_options",multi-intent + urgency,Acil durum + coklu intent,My account is locked and I have an urgent delivery coming tomorrow. I need both issues fixed now.,"I understand that your account is locked and you have an urgent delivery coming tomorrow. 
+
+For a locked account, we recommend waiting 15 minutes and trying again. However, since you're in a time-sensitive situation, I can guide you through the next steps.
+
+You can try to reset your password using the ""Forgot Password"" option on the login page. A reset link will be sent to your registered email address. Follow the instructions in the email to create a new password.
+
+While this is being processed, I can also expedite the process by helping you directly. Please provide me with your full name and order number (if available) so I can verify your identity and assist you in resolving the issue as quickly as possible.
+
+Once your account is unlocked, you should be able to access your delivery information and any other account details.",account_policy.txt,False
+hybrid,cancel_order,very indirect,Cok resmi ve dolayli ifade - cancel order,I no longer wish to proceed with the transaction I initiated earlier today.,"Since you initiated the transaction earlier today, you can still cancel it within the 24-hour time frame. To do so, please provide your Order Number to our support team, and we'll be happy to assist you with the cancellation.",order_policy.txt,False
+hybrid,recover_password,very indirect,Cok resmi ve dolayli - recover password,The credentials I use to access my profile are no longer functional.,"It sounds like you're having trouble accessing your account due to issues with your credentials. If you've lost access to your account key or user credentials, you can contact customer support with proof of identity. We'll verify your identity and help you restore access to your account.",account_policy.txt,False
+hybrid,"delivery_options, cancel_order",conditional + multi-intent,Kosullu soru + coklu intent,What are my options if I want my item to arrive before the weekend but I also need to change the address?,"Based on our delivery policy and changing shipping address guidelines, I can help you with your options.
+
+Since you want your item to arrive before the weekend, you have a few delivery options:
+
+- Express Delivery (2-3 business days)
+- Next Day Delivery (order before 2 PM)
+
+However, if you need to change the address, please note that you must contact us immediately with your Order Number and the new address, and the order must not have shipped yet. If the order is already in transit, we cannot make any changes to the address.
+
+If you're unsure about the status of your order or have any further questions, feel free to contact us.",order_policy.txt,False
+hybrid,cancel_order,emotional + multi-step,Duygusal ifade + iptal ve para iadesi birlikte,I regret making this purchase. How quickly can I reverse it and get my money back?,"You can cancel your order within 24 hours of placement, so if your purchase was made recently, you should be able to reverse it and get a refund quickly. To do this, contact our support team immediately with your order details. 
+
+If you're past the 24-hour window, you can still initiate a refund, but it's subject to our 30-day refund policy. However, please note that refunds may take 5-7 business days to process after approval.",order_policy.txt,False
+hybrid,"recover_password, cancel_order",security scenario,Guvenlik senaryosu - cok dolayli,Someone else might have accessed my profile. I want to secure it and also cancel any recent orders they may have placed.,"To secure your account, I recommend that you immediately reset your password. You can do this by going to the ""Forgot Password"" option on your account settings. If you need help with this, feel free to let me know.
+
+As for the recent orders, we can definitely look into canceling them for you. To do this, I'll need some information from you. Could you please provide me with your full name and order history (including the order numbers or dates)? This will help me verify your identity and assist you with canceling any orders that may have been placed by an unauthorized person.
+
+Once I have this information, I'll be happy to review your recent account activity and help secure your account.",account_policy.txt,False
+hybrid,"recover_password, delivery_options",slang + multi-intent,Tam slang + coklu intent,i messed up my login n now i cant see if my stuff is coming tmrw or not n idk what 2 do,"It sounds like you're having trouble accessing your account. If you've forgotten your PIN or access key, you can use the ""Forgot Password"" option on the login page. A reset link will be sent to your registered email address. From there, you can follow the instructions in the email to create a new PIN or password. If you're having trouble logging in but don't remember your PIN, this might be the best place to start.
+
+If you're having trouble finding the information you need (like tracking your upcoming deliveries), you might want to try logging in with a new password once you've reset it. If you're still having trouble, please contact customer support with proof of identity, and we can help you restore access to your account.",account_policy.txt,False
+hybrid,"cancel_order, recover_password",hypothetical + multi-intent,Varsayimsal soru + coklu kavram,"If I decide not to keep my order and my account gets deleted, will I still get my refund?","To initiate a refund, customers must provide their Order Number and reason for return within 30 days of purchase. If you decide not to keep your order and your account is deleted, you'll still be able to request a refund as long as you have your Order Number and it's within the 30-day timeframe. However, please note that you should complete or cancel any active orders before deleting your account. 
+
+Once you've requested a refund and it's approved, the amount will be returned to the original payment method within 5-7 business days.",account_policy.txt,False

@@ -1,0 +1,55 @@
+test_type,intent,manipulation_type,original_question,manipulated_question,rag_answer,source,failed
+manipulated,cancel_order,"synonym (cancel->abort, order->purchase)",How can I cancel my order?,I want to abort my purchase.,"You can cancel your order within 24 hours of placement at no charge. To do so, please provide your Order Number. If you're outside of the 24-hour window, you may need to follow our return process instead. 
+
+However, since you're requesting to ""abort"" your purchase, I'd like to clarify that you're looking to cancel your order. If that's correct, please provide your Order Number so we can assist you further.",order_policy.txt,False
+manipulated,cancel_order,informal rephrasing,I need to cancel my order.,I'd like to undo my recent buy.,"To undo your recent buy, you can cancel your order within 24 hours of placement. Can you please contact support immediately with your order details so we can assist you with the cancellation?",order_policy.txt,False
+manipulated,cancel_order,indirect phrasing,Can I cancel my order?,Is it possible to stop my shipment before it leaves?,"Yes, it is possible to stop a shipment before it leaves the warehouse, but only if the order has not yet been shipped.",order_policy.txt,False
+manipulated,cancel_order,slang + abbreviation,How do I cancel?,pls cancel asap!!,"I could not find information about this in our policy documents. To cancel your order, you need to provide your Order Number. 
+
+If you'd like to cancel your order, please reply with your Order Number and I'll be happy to assist you.",order_policy.txt,True
+manipulated,cancel_order,negation,I want to cancel my order.,I do NOT want this order anymore.,"To cancel your order within 24 hours of placement at no charge, please provide your Order Number. If you've already exceeded the 24-hour window, you won't be able to cancel the order directly and will need to follow our return process instead.
+
+If you're unsure about your order status or would like to confirm the details, please contact support with your Order Number.",order_policy.txt,False
+manipulated,delivery_options,synonym (delivery->shipping),What delivery options do you have?,What shipping methods are available?,"Our delivery options, also referred to as shipment methods or shipping methods, include the following choices for receiving your order:
+
+- Standard Delivery (5-7 business days)
+- Express Delivery (2-3 business days)
+- Next Day Delivery (order before 2 PM)",delivery_policy.txt,False
+manipulated,delivery_options,informal rephrasing,How can I receive my package?,What are my choices for getting my stuff delivered?,"You have the following choices for getting your stuff delivered:
+
+- Standard Delivery (5-7 business days)
+- Express Delivery (2-3 business days)
+- Next Day Delivery (order before 2 PM)",delivery_policy.txt,False
+manipulated,delivery_options,slang + specific question,Tell me about delivery options.,Do u guys do express or just normal shipping?,"We offer both Express and Standard shipping options. Express delivery takes 2-3 business days, and Standard delivery takes 5-7 business days.",delivery_policy.txt,False
+manipulated,delivery_options,context added,What are your delivery options?,"I need my package fast, what are my options?","If you need your package fast, you have a few options available to you. 
+
+- Express Delivery takes 2-3 business days, which might be suitable for you if you're in a hurry.
+- Next Day Delivery is also available, but it's only eligible if you place your order before 2 PM on a business day.",delivery_policy.txt,False
+manipulated,delivery_options,indirect phrasing,How do you deliver orders?,Can I choose how my order gets to me?,I could not find information about this in our policy documents.,order_policy.txt,True
+manipulated,recover_password,synonym (password->credentials),How do I reset my password?,"I forgot my login credentials, what do I do?","To reset your login credentials, you can use the ""Forgot Password"" option on the login page. A reset link will be sent to your registered email address, and you can follow the instructions in the email to create a new PIN or password. If you're unable to access your email, you may need to contact our customer support team for further assistance.",account_policy.txt,False
+manipulated,recover_password,indirect rephrasing,"I can't log in, help me.",I'm locked out of my account.,"To help you with unlocking your account, have you tried waiting 15 minutes and trying again? If that doesn't work, you can try using the ""Forgot Password"" option to reset your credentials. If the issue persists, feel free to contact our customer support team for further assistance.",account_policy.txt,False
+manipulated,recover_password,slang + abbreviation,How to recover password?,help i cant get into my acc!!,"I'd be happy to help you with that.
+
+Since you're having trouble accessing your account, I'm going to guide you through a few steps.
+
+First, let's check if you're using the correct email address. Make sure you're entering the same email address that's registered with your account.
+
+If that's the case, you can try resetting your password by going to the login page and clicking on the ""Forgot Password"" option. A reset link will be sent to your registered email address. Check your inbox for the password reset email, and follow the instructions to create a new password.
+
+If you're not receiving the reset email, please check your spam or junk folder in case it got filtered out. If you still can't find it, you can request a new reset link by going back to the login page.
+
+If you're experiencing any other issues, such as your account being locked after multiple failed attempts, you can try waiting 15 minutes before trying again. If the issue persists, feel free to contact our customer support team for assistance. We'll be happy to help you unlock your account and regain access.
+
+Is there anything else I can help you with?",account_policy.txt,False
+manipulated,recover_password,problem description instead of request,I need to reset my password.,My password is not working anymore.,"I'm happy to help you with the issue. 
+
+Could you please try resetting your password? You can do this by going to the login page and clicking on ""Forgot Password"". Make sure to enter the email address that you registered with, as this is how we'll send you the password reset link.
+
+If you're having trouble getting the reset link, check your spam or junk folder first. If you still can't find it, you can request a new link from the login page. This will ensure that you get a new link that's valid for another 30 minutes.
+
+If you're still having issues, you might want to try waiting 15 minutes before trying to log in again. This allows the system to reset the account lockout feature. If you're unable to log in even after that, feel free to contact our support team and we'll be happy to help you unlock your account.",account_policy.txt,False
+manipulated,recover_password,added context/scenario,Can you help me recover my account?,I think someone hacked me and changed my password.,"We take account security very seriously. If you suspect your account has been compromised, we recommend that you immediately reset your password to secure your account.
+
+To reset your password, go to the login page and click on the ""Forgot Password"" option. Enter the registered email address associated with your account, and check your inbox for a password reset email. If you don't receive the email, make sure to check your spam or junk folder. 
+
+If you're still unable to reset your password, or if you have any issues, please contact our support team for assistance. We can review recent account activity and help secure your account.",account_policy.txt,False

@@ -1,0 +1,42 @@
+ORDER MANAGEMENT POLICY
+
+1. PLACING AN ORDER
+Customers can place orders through our website or mobile application 24/7. 
+Each order receives a unique Order Number upon confirmation. Customers must 
+ensure their shipping address and payment details are correct before 
+completing the purchase. Once an order is placed, a confirmation email 
+is sent within 5 minutes.
+
+2. CANCELLING AN ORDER
+Customers may cancel their order within 24 hours of placement at no charge. 
+To cancel, customers must provide their Order Number. If the order has 
+already been shipped, cancellation is no longer possible and the customer 
+must follow the return process instead. Orders that contain personalized 
+or digital items cannot be cancelled once placed.
+
+3. CHANGING AN ORDER
+Order modifications (such as quantity or item changes) are only allowed 
+within 12 hours of placement. After this window, changes cannot be 
+guaranteed. Customers must contact support with their Order Number to 
+request a modification.
+
+4. TRACKING AN ORDER
+Customers can track their order status using their Order Number on our 
+website or via the tracking link sent by email. Order statuses include: 
+Processing, Shipped, Out for Delivery, and Delivered. Tracking information 
+is updated every 24 hours.
+
+5. CHANGING SHIPPING ADDRESS
+A shipping address can only be changed if the order has not yet been 
+shipped. Customers must contact support immediately with their Order Number 
+and the new address. Once the order is in transit, address changes are 
+not possible.
+
+Customers who can no longer afford an order or change their mind after
+purchasing may cancel their order within 24 hours of placement at no charge.
+The word "purchase" refers to any order placed on our platform.
+
+Customers who wish to undo, reverse, or stop a recent purchase or buy
+may cancel their order within 24 hours of placement. Stopping a shipment
+before it leaves the warehouse is possible only if the order has not yet
+been shipped. Contact support immediately with your order details.

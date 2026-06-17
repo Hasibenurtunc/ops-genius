@@ -1,0 +1,106 @@
+ACCOUNT MANAGEMENT POLICY
+
+1. CREATING AN ACCOUNT
+Customers can create a free account using a valid email address and
+password. Account registration requires name, email, and password.
+A verification email is sent upon registration and must be confirmed
+within 48 hours. If the verification email is not received, customers
+can request a new one from the login page. Accounts created with
+social login (Google, Facebook) do not require a separate password.
+
+2. EDITING ACCOUNT INFORMATION
+Customers can update their name, email, phone number, and password
+at any time through account settings. Changes to email address require
+re-verification. Payment information can be updated in the billing section.
+Profile changes are saved immediately and take effect right away.
+
+3. RECOVERING A PASSWORD / PIN / ACCESS KEY
+Your account password may also be referred to as a PIN code, access key,
+user key, profile PIN, or login credentials. All of these terms refer to
+the same thing: the secret code you use to log in to your account.
+If you have forgotten, lost, or need to reset your password, PIN code,
+access key, or any login credential, follow the steps below.
+
+To reset your password, PIN, or access key:
+- Go to the login page and click "Forgot Password" or "Reset PIN"
+- Enter the registered email address
+- Check the inbox for a password reset email
+- Click the reset link within 30 minutes
+- Enter and confirm the new password or PIN
+- Log in with the new credentials
+
+If you cannot remember your PIN code or access key:
+- Use the "Forgot Password" option on the login page
+- A reset link will be sent to your registered email address
+- Follow the instructions in the email to create a new PIN or password
+
+If you have lost access to your account key or user credentials:
+- Contact customer support with proof of identity
+- The support team will verify your identity and help you restore access
+
+Customers who forget their password can use the "Forgot Password" option
+on the login page. A password reset link is sent to the registered email
+address and expires after 30 minutes.
+
+If a customer cannot access their registered email address, they should
+contact customer support with proof of identity to recover their account.
+
+Steps to reset a password:
+- Go to the login page and click "Forgot Password"
+- Enter the registered email address
+- Check the inbox for a password reset email
+- Click the reset link within 30 minutes
+- Enter and confirm the new password
+- Log in with the new password
+
+Common password recovery issues:
+- Reset email not received: Check spam or junk folder. If still not
+  found, request a new reset link. Ensure the correct email address
+  is being used.
+- Reset link expired: Request a new password reset link from the
+  login page. Links expire after 30 minutes for security reasons.
+- Account locked after multiple failed attempts: Wait 15 minutes
+  before trying again, or contact support to unlock the account.
+- Forgot registered email address: Contact customer support with
+  your full name and order history to verify identity and recover
+  the account.
+
+Passwords must be at least 8 characters long and include a combination
+of letters and numbers. Customers are advised to use a unique password
+and not share it with anyone.
+
+4. ACCOUNT ACCESS ISSUES
+Customers who cannot log in should first verify that the correct email
+address and password are being used. If login fails repeatedly, the
+account may be temporarily locked for security purposes.
+
+To unlock a locked account:
+- Wait 15 minutes and try again
+- Use the "Forgot Password" option to reset credentials
+- Contact customer support if the issue persists
+
+Customers who believe their account has been compromised or accessed
+by an unauthorized person should immediately reset their password and
+contact support. The support team can review recent account activity
+and help secure the account.
+
+5. REGISTRATION PROBLEMS
+If customers experience issues during registration, they should ensure
+their email address is not already linked to an existing account.
+Common registration errors include invalid email format, weak password,
+or a duplicate account. For persistent issues, customers should contact
+support with a description of the error and a screenshot if possible.
+
+6. SWITCHING ACCOUNTS
+Customers managing multiple accounts must log out before switching.
+Merging of accounts is not supported. Each account must have a unique
+email address. Customers can log out from the account menu at the
+top right corner of the page.
+
+7. DELETING AN ACCOUNT
+Customers may request permanent account deletion at any time. Upon
+deletion, all personal data is removed within 30 days in accordance
+with GDPR regulations. Active orders must be completed or cancelled
+before account deletion. Deleted accounts cannot be recovered.
+To delete an account, go to Account Settings and select Delete Account,
+or contact customer support.

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ops-Genius Store — Premium products with AI-powered customer support." />
+  <title>Ops-Genius Store</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>" />
+</head>
+<body>
+
+<!-- ── Header ───────────────────────────────────────── -->
+<header class="site-header" id="site-header">
+  <div class="header-logo">
+    <span class="icon">🤖</span>
+    <span class="text">Ops-Genius</span>
+    <span class="badge">Store</span>
+  </div>
+  <nav class="header-nav">
+    <a href="#products">Products</a>
+    <a href="#" onclick="openChat(); return false;">Support</a>
+    <a href="#footer">Contact</a>
+  </nav>
+  <div class="header-actions">
+    <button class="cart-btn" id="cart-toggle" onclick="toggleCart()" aria-label="Shopping Cart">
+      🛒<span class="cart-count" id="cart-count">0</span>
+    </button>
+  </div>
+</header>
+
+<!-- ── Hero ──────────────────────────────────────────── -->
+<section class="hero">
+  <span class="hero-tag">🚀 AI-Powered Shopping</span>
+  <h1>Discover Premium Products with Smart Support</h1>
+  <p>Shop with confidence — our AI assistant is always here to help with orders, deliveries, and more.</p>
+  <a href="#products" class="hero-btn">Browse Products ↓</a>
+</section>
+
+<!-- ── Products ──────────────────────────────────────── -->
+<div class="section-title" id="products">
+  <h2>Our Products</h2>
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="All" onclick="filterProducts('All', this)">All</button>
+    <button class="filter-btn" data-filter="Electronics" onclick="filterProducts('Electronics', this)">Electronics</button>
+    <button class="filter-btn" data-filter="Clothing" onclick="filterProducts('Clothing', this)">Clothing</button>
+    <button class="filter-btn" data-filter="Accessories" onclick="filterProducts('Accessories', this)">Accessories</button>
+  </div>
+</div>
+<div class="product-grid" id="product-grid">
+  <!-- Filled by JS -->
+</div>
+
+<!-- ── Footer ───────────────────────────────────────── -->
+<footer class="site-footer" id="footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo">🤖 Ops-Genius Store</div>
+      <p>Premium products backed by AI-powered customer support. Shop smarter, not harder.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Shop</h4>
+      <a href="#">Electronics</a><a href="#">Clothing</a><a href="#">Accessories</a><a href="#">New Arrivals</a>
+    </div>
+    <div class="footer-col">
+      <h4>Support</h4>
+      <a href="#" onclick="openChat(); return false;">AI Chat</a><a href="#">Order Tracking</a><a href="#">Returns</a><a href="#">FAQ</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">About</a><a href="#">Privacy Policy</a><a href="#">Terms of Service</a><a href="#">Contact</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Ops-Genius. All rights reserved.</span>
+    <span>Powered by RAG Technology</span>
+  </div>
+</footer>
+
+<!-- ── Cart Sidebar ──────────────────────────────────── -->
+<div class="cart-overlay" id="cart-overlay" onclick="toggleCart()"></div>
+<aside class="cart-sidebar" id="cart-sidebar">
+  <div class="cart-sidebar-header">
+    <h3>🛒 Your Cart</h3>
+    <button class="cart-close-btn" onclick="toggleCart()">&times;</button>
+  </div>
+  <div class="cart-items" id="cart-items"></div>
+  <div class="cart-footer">
+    <div class="cart-total"><span>Total</span><span id="cart-total-price">$0.00</span></div>
+    <button class="checkout-btn" onclick="alert('Checkout coming soon!')">Proceed to Checkout</button>
+  </div>
+</aside>
+
+<!-- ── Chat Widget ───────────────────────────────────── -->
+<button class="chat-fab" id="chat-fab" onclick="toggleChat()" aria-label="Open Chat">💬</button>
+<div class="chat-window" id="chat-window">
+  <div class="chat-header">
+    <div class="chat-avatar">🤖</div>
+    <div>
+      <div class="chat-header-info"><h3>Ops-Genius Assistant</h3></div>
+      <div class="chat-header-status"><span class="pulse-dot"></span> Online</div>
+    </div>
+  </div>
+  <div class="chat-messages" id="chat-messages">
+    <div class="msg-row">
+      <div class="msg-avatar bot">🤖</div>
+      <div class="msg-bubble bot">Hello! How can I help you today? 👋<br><br>You can ask me about order cancellations, account &amp; password issues, or delivery options.</div>
+    </div>
+  </div>
+  <div class="chat-quick-actions">
+    <button class="quick-btn" onclick="sendQuick('How can I cancel my order?')">📦 Cancel Order</button>
+    <button class="quick-btn" onclick="sendQuick('How do I recover my password?')">👤 Account Help</button>
+    <button class="quick-btn" onclick="sendQuick('What delivery options are available?')">🚚 Delivery Info</button>
+  </div>
+  <div class="chat-input-area">
+    <input type="text" id="chat-input" placeholder="Type your question here..." onkeydown="if(event.key==='Enter')sendMessage()" />
+    <button class="chat-send-btn" onclick="sendMessage()">➤</button>
+  </div>
+</div>
+
+<!-- ── Toast ─────────────────────────────────────────── -->
+<div class="toast" id="toast"></div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
