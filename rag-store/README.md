@@ -11,7 +11,7 @@ A thesis project implementing a **Retrieval-Augmented Generation (RAG)** pipelin
 ###  Live System Walkthrough
 >  *Below is a full interactive walkthrough demonstrating the FastAPI storefront, product filtering, shopping cart animations, and the integrated real-time RAG customer support widget.*
 
-<video src="../ss/demo.mp4" width="100%" controls></video>
+<video src="https://raw.githubusercontent.com/Hasibenurtunc/ops-genius/main/ss/demo.mp4" width="100%" controls></video>
 
 ---
 
