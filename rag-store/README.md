@@ -19,7 +19,7 @@ ss/demo.mp4
 
 |  E-Commerce Main Storefront |  Integrated AI Assistant (RAG) |  Responsive Footer & Chat View |
 |---|---|---|
-| ![Storefront Landing](ss/ss1.png.jpg) | ![Chatbot Active](ss/ss2.png.jpg) | ![Store Footer View](ss/ss3.png.jpg) |
+| ![Storefront Landing](ss/ss1.png) | ![Chatbot Active](ss/ss2.png) | ![Store Footer View](ss/ss3.png) |
 
 ---
 
